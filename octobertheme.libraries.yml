@@ -1,0 +1,17 @@
+styles:
+  # version: 3.3.6
+  css:
+    theme:
+      vendor/bootstrap/bootstrap.min.css: {}
+      css/style1.css: {}
+      css/style2.css: {}
+      css/style3.css: {}
+      css/style4.css: {}
+      css/custom.css: {}
+
+    js:
+      vendor/jquery.min.js: {}
+      vendor/bootstrap/bootstrap.min.js: {}
+      
+    # dependencies:
+    #   - core/jquery

@@ -1,0 +1,6 @@
+<?php 
+function octobertheme_preprocess_html(&$variables) {
+	$current_user = \Drupal::currentUser();
+	$roles = $current_user->getRoles();
+
+}

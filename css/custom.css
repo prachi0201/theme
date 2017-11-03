@@ -1,0 +1,236 @@
+body,html {
+	height: 100%;
+}
+.custom_main_container a:link {
+    color: #af0136;
+    text-decoration: none;
+}
+.custom_main_container a:visited {
+    color: #af0136;
+    text-decoration: none;
+}
+.custom_main_container a:hover {
+    color: white;
+    background-color: #af0136;
+    text-decoration: none;
+}
+.custom_hover_color a:hover {
+	background-color: white;
+}
+p {
+	color: black;
+}
+h2 {
+	color: black;
+}
+img {
+    border: 0;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+#toolbar-administration {
+	/*position: fixed;
+	top: 0;
+	width: 100%;
+    background-color: black;
+    z-index: 9;*/
+}
+.custom_main_container {
+	height: inherit;
+}
+.custom_topbar_margin1 {
+	margin-top: 39px;
+}
+.custom_height_inherit {
+	height: inherit;
+}
+.custom_min_height {
+	min-height: 100%;
+}
+.logo {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    float: left;
+    display: block;
+    background: url(../people.png) no-repeat 50% 50%;
+    height: 75px;
+    width: 79px;
+    margin-right: 10px;
+}
+.name-and-slogan {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    float: none;
+}
+.media-heading {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.text_color_logo {
+	    color: #af0136;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: rgba(243, 167, 190, 0.27);
+    border-color: #af0136;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 23px;
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    float: right;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 32px;
+}
+.custom_height_fit_content {
+	height: fit-content;
+}
+.block--menu ul.custom_menutab_color{
+	color: white;
+}
+.menu_tab_textcolor ul.menu a {
+    background-color: #fbfbf7;
+    display: block;
+    color: black;
+    padding: 0.4em;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #af0136;
+}
+.navbar-nav1 {
+	padding-top: 0px;
+	font-size: 16px;
+}
+.navbar-nav {
+    padding-top: 0px;
+    font-size: 16px;
+    float: none;
+}
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 12px;
+	margin-right: auto;
+	margin-left: auto
+}
+.navbar-default {
+	background-color: #af0136;
+	border-color: #af0136;
+	}
+.custom_tab_color {
+	color:white;																					
+}
+.custom_menu_region {
+	background-color: #af0136;
+
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar {
+    position: relative;
+    /* min-height: 50px; */
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+}
+.custom_slider_region {
+	background-color: white;
+    height: fit-content;
+    width: 100%;
+    background-repeat: round;
+}
+.slider_background {
+
+}
+.custom_main_content_region {
+	background-color: white;
+	min-height: 100%;
+	height: -webkit-fill-available;
+}
+.custom_h4_color h4 {
+	color: black;
+	font-size: 16px;
+}
+.custom_sidebar_region {
+	background-color: white;
+	min-height: 100%;
+	height: auto;
+}
+.custom_footer_region_color {
+	background-color: #2f2d2e;
+	bottom:0px;
+}
+.custom_text_footer p, .custom_text_footer h2 {
+	color:white;
+}
+.custom_footer_1_region {
+	background-color: green;
+
+}
+.custom_footer_2_region {
+	background-color: yellow;
+
+}
+.custom_footer_3_region {
+	background-color: orange;
+
+}
+.custom_footer_4_region {
+	background-color: violet;
+
+}
+.custom_footer_5_region {
+	background-color: aqua;
+
+}
+.custom_block_color {
+	color:white;
+}
+@media (min-width: 800px) {
+	.block-user-menu.block--menu {
+		font-family: "Ubuntu-R";
+		width: none;
+		font-size: .8em;
+	}	
+}
+@media (min-width: 800px) {
+	.block-user-menu.block--menu ul.menu {
+		font-size: 15px;
+		margin-left: 110px;
+		margin-top: 6px;
+	}	
+}
+@media (min-width: 800px) {
+	.block-user-menu.block--menu ul.menu a {
+    	color: #0f0775;
+    	margin-top: 6px; 
+    	padding: 0 !important; 
+ 		font-size: 16px;
+    	background: transparent !important;
+	}	
+}
+@media (min-width: 800px) {
+	.block-user-menu.block--menu ul.menu li {
+    /* margin-left: 1.25em; */
+	}
+}

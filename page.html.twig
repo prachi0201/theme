@@ -1,0 +1,103 @@
+<div class="container-fluid custom_main_container {% if user.hasPermission('administer nodes') %} custom_topbar_margin {% endif %}">
+  <div class="row">
+    <div class="col-xs-9 col-sm-9 col-md-9 custom_height_fit_content" style="background-color:white;">
+      {# {{ page.highlighted }} #}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 custom_height_fit_content" style="background-color:white;">
+      {{ page.highlighted }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 custom_height_fit_content custom_hover_color" style="background-color:white;">
+     {{ page.header }}
+      {# <header id="header"class="header"role="banner">
+        <div id="topbar"class="topbar1">
+          <a href="/"title="Home"rel="home"class="logo"></a>
+          <hgroup class="name-and-slogan">
+            <h1 class="site-name">
+              <span>Job Portal</span>
+            </h1>
+          </hgroup>
+        </div>
+      </header> #}
+    </div>
+    {# <div class="col-xs-4 col-sm-4 col-md-4 custom_height_fit_content" style="background-color:white; height: 88px;"> #}
+      {# <a href="/devjobportal/user/login" class="btn btn-info" role="button">Login</a> #}
+      {# <nav id="block-menu-menu-login-menu"role="navigation"class="block block--menu block-user-menu block--menu-menu-login-menu">
+        <ul class="menu">
+          <li class="first last leaf">
+            <a href="/devjobportal/user/login"title="" style="float:right">Login / Register</a>
+            
+            
+             <button type="button" class="btn btn-primary">Primary</button> 
+          </li>
+        </ul>
+      </nav> #}
+    {# </div> #}
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 custom_menu_region1 custom_height_fit_content">
+  		{# <nav id="block-menu-menu-applicant-menu" role="navigation" class="block block--menu block-main-menu block-applicant-menu block--menu-menu-applicant-menu">
+      		<ul class="nav navbar-nav">
+      			<li class="active"><a href="#" style="color:white">Home</a></li>
+      			<li><a href="#" style="color:white">My Resume</a></li>
+      			<li><a href="#" style="color:white">Job Search</a></li>
+      			<li><a href="#" style="color:white">Contact</a></li>
+      			<li><a href="#" style="color:white">For Recruiters</a></li>
+            {{ page.navigation }}
+    		</ul>
+      </nav> #}
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            {{ page.navigation }}
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+  	<div class="col-xs-12 col-sm-12 col-md-12 custom_slider_region custom_height_fit_content slider_background1">
+      {{ page.navigation_collapsible }}
+    </div>
+  </div>
+  <div class="row custom_height_inherit1 custom_min_height">
+  	<div class="{% if page.sidebar_second %} col-md-9 {% else %} col-md-12 {% endif %} custom_main_content_region custom_height_fit_content custom_h4_color" style="margin-top:0px; height:auto">
+  		{% if page.content %}
+  			{{ page.content }}
+  		{% endif %} 
+  	</div>
+  	{% if page.sidebar_second %}
+    <div class="col-md-3 custom_sidebar_region custom_height_fit_content">
+      {{ page.sidebar_second }}
+    </div>
+    {% endif %}
+  </div>
+  <div class="row custom_height_fit_content custom_footer_region_color custom_text_footer">
+    <div class="col-xs-12 col-sm-6 col-md-3 custom_height_fit_content">
+      {% if page.footer_first %}
+        {{ page.footer_first }}
+      {% endif %} 
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 custom_height_fit_content">
+      {% if page.footer_second %}	
+        {{ page.footer_second }}
+      {% endif %}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 custom_height_fit_content">
+      {% if page.footer_third %}	
+        {{ page.footer_third }}
+      {% endif %}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 custom_height_fit_content">
+      {% if page.footer_fourth %}	
+        {{ page.footer_fourth }}
+      {% endif %}
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 custom_height_fit_content">
+      {% if page.footer_fifth %}	
+        {{ page.footer_fifth }}
+      {% endif %}
+    </div>
+  </div>
+</div>
